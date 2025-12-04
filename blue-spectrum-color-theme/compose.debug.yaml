@@ -1,0 +1,6 @@
+services:
+  bluespectrumcolortheme:
+    image: bluespectrumcolortheme
+    build:
+      context: .
+      dockerfile: ./Dockerfile

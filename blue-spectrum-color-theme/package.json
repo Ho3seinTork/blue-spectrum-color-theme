@@ -1,0 +1,24 @@
+{
+    "name": "Ht",
+    "displayName": "blue-spectrum-color-theme",
+    "description": "A custom dark theme for VS Code",
+    "version": "1.0.0",
+    "publisher": "ho3seintork",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "blue-spectrum-color-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-spectrum-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ho3seintork/blue-spectrum-color-theme"
+    }
+}

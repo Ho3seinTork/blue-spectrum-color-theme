@@ -1,0 +1,166 @@
+{
+    "name": "Blue Spectrum Theme",
+    "type": "dark",
+    
+    "colors": {
+        // ۱. غیرفعال کردن رنگ‌آمیزی خودکار پرانتزها
+        "editor.bracketPairColorization.enabled": false,
+        
+        // ۲. تنظیم رنگ سفید برای همه پرانتزها
+        "editorBracketHighlight.foreground1": "#ffffff",
+        "editorBracketHighlight.foreground2": "#ffffff",
+        "editorBracketHighlight.foreground3": "#ffffff",
+        "editorBracketHighlight.foreground4": "#ffffff",
+        "editorBracketHighlight.foreground5": "#ffffff",
+        "editorBracketHighlight.foreground6": "#ffffff",
+        
+        // ۳. نوار وضعیت مشکی
+        "statusBar.background": "#0a0a1a",
+        "statusBar.foreground": "#99ccff",
+        "statusBarItem.hoverBackground": "#001133",
+        "statusBar.border": "#0a0a1a",
+        
+        // ۴. سایر تنظیمات
+        "editor.foreground": "#e6f2ff",
+        "editorCursor.foreground": "#4da6ff",
+        "editor.lineHighlightBackground": "#1a1a2e",
+        "editor.selectionBackground": "#1a3a5f",
+        "editor.selectionHighlightBackground": "#1e3a5f",
+        "editor.lineHighlightBorder": "#1a1a2e",
+        "editorLineNumber.foreground": "#336699",
+        "editorLineNumber.activeForeground": "#66b3ff",
+        "editorBracketMatch.background": "#1a3366",
+        "editorBracketMatch.border": "#3399ff",
+        "editorIndentGuide.background": "#1a3366",
+        "editorIndentGuide.activeBackground": "#4da6ff",
+        "focusBorder": "#3399ff"
+    },
+    
+    "tokenColors": [
+        {
+            "name": "دستورات پیش‌پردازنده (مثل #define، #include)",
+            "scope": ["meta.preprocessor", "keyword.control.directive"],
+            "settings": {
+                "foreground": "#32aef8",
+            }
+        },
+        {
+            "name": "ماکروها",
+            "scope": ["entity.name.function.preprocessor", "constant.other.preprocessor"],
+            "settings": {
+                "foreground": "#66ccff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "توابع",
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#66b3ff"
+            }
+        },
+        {
+            "name": "کلمات کلیدی (مثل if، while، return)",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {
+                "foreground": "#4da6ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "کلمات کلیدی کنترلی (مثل break، continue، goto)",
+            "scope": ["keyword.control"],
+            "settings": {
+                "foreground": "#3399ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "متغیرها و پارامترها",
+            "scope": ["variable", "variable.parameter"],
+            "settings": {
+                "foreground": "#d4e8ff"
+            }
+        },
+        {
+            "name": "رشته‌های متنی",
+            "scope": "string",
+            "settings": {
+                "foreground": "#f0f7ff"
+            }
+        },
+        {
+            "name": "توضیحات (کامنت‌ها)",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#ffffff95",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "اعداد",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#c2e0ff"
+            }
+        },
+        {
+            "name": "ثابت‌ها",
+            "scope": "constant",
+            "settings": {
+                "foreground": "#b3d9ff"
+            }
+        },
+        {
+            "name": "عملگرها (مثل +، -، =، ==)",
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "تعریف نوع‌ها (مثل int، float، struct)",
+            "scope": ["entity.name.type", "support.type"],
+            "settings": {
+                "foreground": "#99d6ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "ثابت‌های زبان (مثل true، false، null)",
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#b3d9ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "کد توکار (embedded code)",
+            "scope": "meta.embedded",
+            "settings": {
+                "foreground": "#d4e8ff",
+                "background": "#0d1a33"
+            }
+        },
+        {
+            "name": "پرانتزها و براکت‌ها",
+            "scope": [
+                "punctuation",
+                "punctuation.section",
+                "meta.brace",
+                "punctuation.definition.parameters.begin",
+                "punctuation.definition.parameters.end",
+                "punctuation.definition.array.begin",
+                "punctuation.definition.array.end",
+                "punctuation.definition.dict.begin",
+                "punctuation.definition.dict.end",
+                "punctuation.definition.block.begin",
+                "punctuation.definition.block.end",
+                "punctuation.definition.bracket.square"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }
+    ]
+}
