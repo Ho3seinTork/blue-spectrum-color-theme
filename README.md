@@ -1,4 +1,6 @@
 # Blue Spectrum Color Theme
+<img width="1298" height="900" alt="image_2025-12-04_19-13-37" src="https://github.com/user-attachments/assets/b5c6dcdd-b91e-43f3-b0d3-f50e7c843e3a" />
+
 
 یک تم تاریک زیبا برای Visual Studio Code با طیف‌های آبی و سفید
 
